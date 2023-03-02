@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(180, 106, 249);
+}
+#container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(241, 84, 207);
+    margin: auto;
+    align-items: center;
+}
+#write{
+    font-size: large;
+    font-family: cursive;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+#btn{
+    padding: 5px;
+    background-color: black;
+    color: white;
+
+}
+#quote{
+    opacity: 1;
+    background-color: rgb(247, 112, 235);
+    height: fit-content;
+    width: fit-content;
+    color: black;
+    margin: 10px;
+}
+.fade{
+    opacity: 1;
+    transition: opacity 1s;
+}
+.wrapper{
+    font-size: 80px
+}
